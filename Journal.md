@@ -6,16 +6,16 @@
 
 **Issue title:** API docs don't include example curl commands
 
-**Tier:** [x] Tier 1  [] Tier 2  [ ] Tier 3
+**Tier:** [x] Tier 1  [ ] Tier 2  [ ] Tier 3
 
 **Problem summary:**
-This issue affects the PathReview application by introducing behavior that is either missing or not working as intended. The current implementation does not fully support the expected functionality, resulting in an inconsistent user experience. To resolve the issue, I will identify the root cause, implement the required changes, and verify that the feature works correctly without breaking existing functionality. A successful fix will ensure the affected part of the application behaves as expected.
+The API documentation explains each endpoint but does not include example curl commands that developers can use to test the API. This makes it harder for new contributors to verify their local setup and understand how each endpoint should be called. I will update the documentation by adding example curl commands for the documented endpoints so developers can test the API more easily.
 
-**Branch name:** fix/117-<short-description>
+**Branch name:** docs/117-api-curl-examples
 
-**Setup confirmation:** [ ] App runs locally at localhost:5173
+**Setup confirmation:** [x] App runs locally at localhost:5173
 
-**Cohort ledger:** [ ] Issue added to cohort ledger
+**Cohort ledger:** [x] Issue added to cohort ledger
 
 ### Is this right for me?
 
