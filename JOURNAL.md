@@ -23,3 +23,17 @@ The API documentation explains each endpoint but does not include example curl c
 - [x] I understand the area of the codebase involved.
 - [x] The issue provides a good opportunity to learn more about the project.
 - [x] I have a plan to reproduce the issue, implement a fix, and test my changes.
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [paste your GitHub commit link here]
+
+**Reproduction summary:**
+I reproduced Issue #117 by reviewing `docs/API.md` and confirming that the API endpoints are described without example `curl` commands. Developers currently have to inspect the backend routes or Swagger documentation to determine how to call and test the endpoints.
+
+**PLAN.md link:** https://github.com/DarrenBoyo/pathreview/blob/docs/117-api-curl-examples/PLAN.md
+
+**Walkthrough video (recommended):** Not recorded
+
+**Blockers or open questions:**
+I still need to confirm which endpoints require authentication and verify that every example works against the local API.
