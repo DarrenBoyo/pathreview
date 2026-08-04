@@ -55,7 +55,7 @@ I am unable to run `make check` and `make test-unit` because GNU Make is not ins
 
 ### Check-in 2 (end of week)
 
-**PR link:** [Paste your GitHub pull request URL here]
+**PR link:** https://github.com/ascherj/pathreview/pull/248
 
 **Branch:** `docs/117-api-curl-examples`
 
