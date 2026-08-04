@@ -37,3 +37,37 @@ I reproduced Issue #117 by reviewing `docs/API.md` and confirming that the API e
 
 **Blockers or open questions:**
 I still need to confirm which endpoints require authentication and verify that every example works against the local API.
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I reviewed the API route implementations and confirmed how each endpoint is used. I updated `docs/API.md` by adding example `curl` commands for the Health, Authentication, Profiles, and Reviews endpoints. The examples include the correct HTTP methods, authentication requirements, and request formats based on the current implementation.
+
+**Next steps:**
+Review the documentation for formatting and accuracy, open a draft pull request, request peer feedback, address any suggested improvements, and submit the final pull request.
+
+**Blockers:**
+I am unable to run `make check` and `make test-unit` because GNU Make is not installed in my Windows development environment.
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [Paste your GitHub pull request URL here]
+
+**Branch:** `docs/117-api-curl-examples`
+
+**What you built:**
+I updated the API documentation by adding example `curl` commands for all documented endpoints. The new examples show developers how to authenticate, create requests, and access protected endpoints using bearer tokens, making the documentation easier to follow and test.
+
+**Tests added or updated:**
+No test files were modified because this contribution only updates project documentation. I verified the examples against the API route implementations to ensure they match the documented endpoints.
+
+**Self-review confirmation:**
+[ ] make check passes
+[ ] make test-unit passes
+
+**Draft PR feedback received from:**
+None
