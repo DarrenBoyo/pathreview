@@ -75,3 +75,34 @@ No test files were modified because this contribution only updates project docum
 
 **Draft PR feedback received from:**
 None
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [x] Yes  [ ] No — still awaiting review
+
+**Summary of feedback:**
+The reviewer said that the `curl` examples described in my journal did not appear to be present for the Authentication, Profiles, and Reviews sections. They recommended doing a final review of the actual PR diff to make sure the completed work matches what is described in my journal and plan. I also received feedback about my testing documentation because I did not clearly distinguish between pre-existing test and lint failures and the results after my changes. The reviewer also recommended requesting peer feedback earlier in the contribution process.
+
+**How you responded:**
+I reviewed the current version of `docs/API.md` and confirmed that it contains `curl` examples for the Health, Authentication, Profiles, and Reviews endpoints. I also reviewed my testing documentation to make sure it accurately explains the existing lint and unit-test failures that are unrelated to my documentation changes. The feedback helped me understand the importance of checking the final PR diff before submitting my work.
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+Setting up the development environment was harder than I expected. I ran into problems with Docker, GNU Make, Git Bash, and the Python virtual environment on Windows. I also had to become more comfortable working with forks, branches, commits, and pull requests. Even though my issue focused on documentation, completing the contribution required understanding and using the project's full development workflow.
+
+**What did you learn about working in a large codebase?**
+I learned that I cannot rely only on the issue description when making a change. I had to inspect the API route implementations to understand authentication requirements, request formats, parameters, and how the endpoints actually work before writing the `curl` examples. I also learned that a large repository can already contain failing tests and lint errors. It is important to establish which problems existed before making changes so I can determine whether my contribution introduced any new failures.
+
+**How did AI tools help — and where did they fall short?**
+AI tools helped me understand Git commands, troubleshoot Docker and Make errors, navigate unfamiliar parts of the codebase, and understand what different error messages meant. AI was also useful for helping me organize my plan and documentation. However, I learned that AI suggestions still need to be checked against the actual repository. I needed to inspect the route implementations, GitHub diff, and test results myself because the codebase is the final source of truth.
+
+**What would you do differently if you started over?**
+I would set up my complete development environment before beginning the issue and run `make check` and `make test-unit` before making any changes. This would give me a clear baseline that I could compare against my results after implementing the fix. I would also review my final PR diff more carefully and request peer feedback earlier so that potential issues could be identified before submission.
+
+**What are you most proud of from this module?**
+I am most proud of becoming more comfortable with the complete open-source contribution workflow. I learned how to work with a fork, create and manage a branch, investigate an issue, plan a solution, make and push changes, run project verification commands, and maintain a pull request. I now have a much better understanding of what it takes to contribute to an existing project rather than only working on my own code.
